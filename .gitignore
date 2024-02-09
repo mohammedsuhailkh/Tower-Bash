@@ -1,20 +1,7 @@
-# Unity specific
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Uu]ser[Ss]ettings/
+# Ignore all files except the Assets directory
+/*
+!/Assets/
 
-# Visual Studio / MonoDevelop / Rider specific
-[Ee]xported[Oo]bj/
-.vs/
-*.userprefs
-*.csproj
-*.pidb
-*.suo
-*.sln
-*.user
-*.unityproj
-*.booproj
+# Ignore generated Unity project files
+/Library/
+/ProjectSettings/
